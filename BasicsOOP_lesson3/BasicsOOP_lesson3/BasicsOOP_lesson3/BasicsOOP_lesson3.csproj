@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F737454A-A05D-44A2-8350-EB46267FDA30}</ProjectGuid>
+    <ProjectGuid>{B646B2AE-2898-487C-A84D-4663DF06E66A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>BasicsOOP_lesson3</RootNamespace>
     <AssemblyName>BasicsOOP_lesson3</AssemblyName>
@@ -45,9 +45,12 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Task1\BankAccountActions.cs" />
+    <Compile Include="Task2\StringRevers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

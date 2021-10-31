@@ -10,6 +10,18 @@ namespace BasicsOOP_lesson3
     {
         static void Main(string[] args)
         {
+           // первое задание
+            // BankAccountActions Bank = new BankAccountActions();
+
+            // Bank.TaceOff(155455245555, 646465);
+            // Bank.TaceOff(155455245555, 6466666);
+
+            // второе задание
+           // StringRevers revers = new StringRevers();
+           // revers.String("Искать такси");
+
+
+
         }
     }
 }
